@@ -2,15 +2,22 @@
 
 int main(){
 
-int i = 1;
+int numero;
 
 do {
 
-    printf("%d\n", i);
-    i++;
+    printf("Digite um número par para finalizar: ");
+    scanf("%d", &numero);
 
-} while (i == 5); 
+    if (numero % 2 == 0){
+        printf("O número %d é par\n", numero);
+    }else{
+        printf("O número %d é impar\n", numero);
+    }
 
+}while (numero % 2 != 0);
+
+printf("O numero informado é par, finalizando programa\n");
 
     return 0;
 }
