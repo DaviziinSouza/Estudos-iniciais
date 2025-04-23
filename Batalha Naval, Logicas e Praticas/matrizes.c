@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int matriz[2][2] = {
+    int matriz[3][2] = {
         {10, 20},
         {30, 40},
         {50, 60}

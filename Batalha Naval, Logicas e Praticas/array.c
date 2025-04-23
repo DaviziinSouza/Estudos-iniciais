@@ -1,15 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int matriz[2][2] = {
-        {10, 20},
-        {30, 40}
-    };
+    int numeros[3] = {5, 10, 15};
 
-    printf("Elemento [0][0]: %d\n", matriz[0][0]); // 10
-    printf("Elemento [0][1]: %d\n", matriz[0][1]); // 20
-    printf("Elemento [1][0]: %d\n", matriz[1][0]); // 30
-    printf("Elemento [1][1]: %d\n", matriz[1][1]); // 40
+    printf("Primeiro número: %d\n", numeros[0]);
+    printf("Segundo número: %d\n", numeros[1]);
+    printf("Terceiro número: %d\n", numeros[2]);
 
     return 0;
 }
